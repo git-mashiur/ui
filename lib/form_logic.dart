@@ -24,9 +24,6 @@ class FormLogic {
       String? area,
       String? language,
       ) {
-    return country != null &&
-        city != null &&
-        area != null &&
-        language != null;
+    return country != null && city != null && area != null && language != null;
   }
 }
